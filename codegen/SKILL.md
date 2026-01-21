@@ -15,6 +15,11 @@ description: Implement full-stack features across React/TanStack Router/Query/Ta
 - Provide complete, production-ready code with no TODOs.
 - Follow UUIDv7, enum/status, contract, and PSC rules from `references/codegen.md`.
 - Regenerate API artifacts and client code when contracts change.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Implement full stack: FE + BE + migrations as required.
+2. Implement backend only: Leave frontend untouched.
 
 ## Resources
 - `references/codegen.md` is the authoritative prompt and deliverables.

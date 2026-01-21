@@ -3,15 +3,15 @@
 ## Workflow Selector
 Use this quick guide to pick the right flow.
 
-| Need | Workflow |
-| --- | --- |
-| Validate scope before implementation or review a change set | Review Workflow |
-| Implement new feature end-to-end | Codegen Workflow |
-| Prepare for release or major deploy | Release Readiness Workflow |
-| Urgent production fix | Hotfix / Incident Workflow |
-| Schema or data change | Migration / Schema Change Workflow |
-| Improve performance or cost | Performance Tuning Workflow |
-| Docs work only | Documentation-Only Workflow |
+## Example Choices
+
+1. Review Workflow: Validate scope before implementation or review a change set.
+2. Codegen Workflow: Implement new feature end-to-end.
+3. Release Readiness Workflow: Prepare for release or major deploy.
+4. Hotfix / Incident Workflow: Urgent production fix.
+5. Migration / Schema Change Workflow: Schema or data change.
+6. Performance Tuning Workflow: Improve performance or cost.
+7. Documentation-Only Workflow: Docs work only.
 
 ## Skill ID Legend
 Use these IDs in workflow steps to reference the corresponding skills.
@@ -25,6 +25,11 @@ Use these IDs in workflow steps to reference the corresponding skills.
 | Docs Writer | `docs-writer` |
 | Planner | `planner` |
 | Test Generator | `test-generator` |
+
+## Example Output
+1. Workflow selecionado: nome do workflow e justificativa breve.
+2. Sequencia aplicada: lista das skills em ordem.
+3. Action items: `docs/Action_Items.md` atualizado quando houver bloqueios.
 
 ## Review Workflow (requires `discovery` + `planner`)
 **Use when**: reviewing a feature, change set, or PR scope before implementation.

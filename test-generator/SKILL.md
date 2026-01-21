@@ -17,6 +17,11 @@ Write deterministic frontend and backend tests aligned with quality gates.
 ## Output Requirements
 - Tests must be complete with fixtures, clear assertions, and isolated state.
 - Ask for minimal missing contract details if required to write tests.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Add FE + BE tests: Cover happy, error, and edge cases.
+2. Add backend-only tests: Focus on API and data layer.
 
 ## Resources
 - `references/tests.md` is the authoritative prompt and deliverables.

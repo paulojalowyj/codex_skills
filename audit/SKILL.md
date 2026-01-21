@@ -17,6 +17,11 @@ Perform a structured security and quality audit, then report findings in docs.
 ## Output Requirements
 - Each finding includes title, severity, location, evidence, recommendation, and owner.
 - Include positives (good practices) where applicable.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Run a full audit now: Review FE/BE scope and produce findings.
+2. Focus only on backend risks: Skip frontend checks.
 
 ## Resources
 - `references/audit.md` is the authoritative prompt and deliverables.

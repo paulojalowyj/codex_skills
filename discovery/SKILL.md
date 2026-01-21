@@ -17,6 +17,11 @@ Capture requirements and constraints, then generate a structured requirements pa
 ## Output Requirements
 - Always create the full requirements pack listed in `references/discovery.md`.
 - Cite evidence or mark items as assumptions when inputs are missing.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Proceed with assumptions: Draft requirements with explicit gaps.
+2. Ask clarifying questions: Up to 6 questions before drafting.
 
 ## Resources
 - `references/discovery.md` is the authoritative prompt and deliverables.

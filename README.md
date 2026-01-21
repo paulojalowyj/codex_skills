@@ -13,7 +13,7 @@ Monolithic repository containing Codex skills used in this environment.
 - test-generator: Automated test generation for frontend and backend.
 
 ### Workflow
-- engineer: Development workflow orchestration and sequencing across skills.
+- workflow-engineer: Development workflow orchestration and sequencing across skills.
 
 ## Install (clone)
 Clone into your Codex home and use it as the skills root:
@@ -31,4 +31,4 @@ ln -s ~/codex_skills "$CODEX_HOME/skills"
 
 ## Notes
 - Each skill lives in its own folder with a `SKILL.md` entrypoint.
-- Workflow references are in `engineer/references/workflows.md`.
+ - Workflow references are in `workflow-engineer/references/workflows.md`.

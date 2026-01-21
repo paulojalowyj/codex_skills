@@ -18,6 +18,11 @@ Create a sprint plan in docs/ based on requirements and context pack inputs.
 ## Output Requirements
 - Always create the full sprint plan set listed in `references/planner.md`.
 - Use Fibonacci estimates and keep tasks <= 1 day.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Plan a 2-week sprint: Include QA plan and risk register.
+2. Plan a 1-week sprint: Focus on critical path only.
 
 ## Resources
 - `references/planner.md` is the authoritative prompt and deliverables.

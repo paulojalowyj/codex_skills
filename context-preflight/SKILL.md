@@ -20,6 +20,11 @@ Generate a verified context pack for a multi-repo full-stack workspace and docum
 - Always create or update the full context pack listed in `references/context-preflight.md`.
 - Cite evidence in each doc with explicit file paths.
 - Put cross-repo impacts in `docs/Action_Items.md` with severity and owner.
+- When presenting user choices, use a numbered list in the format `1. Option: description`.
+
+## Example Choices
+1. Full preflight: Frontend + backend + docs pack.
+2. Backend-only preflight: Skip frontend routing and UI checks.
 
 ## Resources
 - `references/context-preflight.md` contains the authoritative checklist and deliverables.
