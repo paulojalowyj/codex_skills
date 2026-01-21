@@ -3,14 +3,17 @@
 Monolithic repository containing Codex skills used in this environment.
 
 ## Contents
-- audit
-- codegen
-- context-preflight
-- discovery
-- docs-writer
-- engineer
-- planner
-- test-generator
+### Skills
+- audit: Security and code quality audit for frontend and backend changes.
+- codegen: Full-stack feature implementation (frontend + backend + DB/migrations).
+- context-preflight: Context mapping and standardization across repos.
+- discovery: Requirements discovery, scope definition, and acceptance criteria.
+- docs-writer: Technical documentation updates and authoring.
+- planner: Sprint planning and backlog organization.
+- test-generator: Automated test generation for frontend and backend.
+
+### Workflow
+- engineer: Development workflow orchestration and sequencing across skills.
 
 ## Install (clone)
 Clone into your Codex home and use it as the skills root:
